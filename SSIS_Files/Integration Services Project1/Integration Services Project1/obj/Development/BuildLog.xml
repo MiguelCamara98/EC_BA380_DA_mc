@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
-    <Name>DA</Name>
-    <LastWriteTime>2022-01-30T00:29:42.6373403Z</LastWriteTime>
+    <Name>Integration Services Project1</Name>
+    <LastWriteTime>2022-01-29T22:30:47.4368258Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>EC_BA380_W3_mc.dtsx</Name>
-      <LastWriteTime>2022-01-30T00:29:42.5794962Z</LastWriteTime>
+      <Name>Package.dtsx</Name>
+      <LastWriteTime>2022-01-29T22:30:47.404806Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="EC_BA380_W3_mc"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{09766B76-D88D-43BB-A46D-80CB09B22C4A}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{2B23CDCC-64EB-42E0-A398-FBF863A0328F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2978,45 +2978,33 @@
         <NodeLayout
           Size="151.2,41.6"
           Id="Package\US Zip Code Geo coordinates\Load target\Flat File Source"
-          TopLeft="196,151" />
+          TopLeft="15.5,5.49999999999995" />
         <NodeLayout
           Size="160,41.6"
           Id="Package\US Zip Code Geo coordinates\Load target\Flat File Source 1"
-          TopLeft="516,175" />
+          TopLeft="247.1,5.49999999999995" />
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\US Zip Code Geo coordinates\Load target\OLE DB Destination"
-          TopLeft="212,268" />
+          TopLeft="5.50000000000003,107.1" />
         <NodeLayout
           Size="180,41.6"
           Id="Package\US Zip Code Geo coordinates\Load target\OLE DB Destination 1"
-          TopLeft="563,350" />
+          TopLeft="237.1,107.1" />
         <EdgeLayout
           Id="Package\US Zip Code Geo coordinates\Load target.Paths[Flat File Source Output]"
-          TopLeft="271.6,192.6">
+          TopLeft="91.1,47.1">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="26,75.3999999999999"
+              EndConnector="0,59.9999999999999"
               Start="0,0"
-              End="26,67.8999999999999">
+              End="0,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,33.7"
-                    Point2="0,37.7"
-                    Point3="4,37.7" />
-                  <mssgle:LineSegment
-                    End="22,37.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="22,37.7"
-                    Point2="26,37.7"
-                    Point3="26,41.7" />
-                  <mssgle:LineSegment
-                    End="26,67.8999999999999" />
+                    End="0,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3027,30 +3015,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\US Zip Code Geo coordinates\Load target.Paths[Flat File Source Output1]"
-          TopLeft="596,216.6">
+          TopLeft="327.1,47.1">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="57,133.4"
+              EndConnector="0,59.9999999999999"
               Start="0,0"
-              End="57,125.9">
+              End="0,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,62.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,62.7"
-                    Point2="0,66.7"
-                    Point3="4,66.7" />
-                  <mssgle:LineSegment
-                    End="53,66.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="53,66.7"
-                    Point2="57,66.7"
-                    Point3="57,70.7" />
-                  <mssgle:LineSegment
-                    End="57,125.9" />
+                    End="0,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
