@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="1/20/2022 4:40:07 PM"
@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="EC_BA380_W3_mc"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{2B23CDCC-64EB-42E0-A398-FBF863A0328F}">
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{200D901D-EBFE-4543-A0ED-866618118D23}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -598,7 +598,6 @@
       DTS:refId="Package\Avocado Data Analysis"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
-      DTS:Disabled="True"
       DTS:DTSID="{3D579F6A-33F9-499B-951E-B71CFC4AD20F}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
@@ -1764,6 +1763,7 @@
       DTS:refId="Package\US Zip Code Geo coordinates"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
+      DTS:Disabled="True"
       DTS:DTSID="{71EBFBA3-15C5-4987-A88F-CDD9D3065722}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
@@ -2885,7 +2885,7 @@
           PanelSize="326.4,276.8"
           Size="326.4,320"
           Id="Package\US Zip Code Geo coordinates"
-          TopLeft="459.166648421023,44.2333295451272" />
+          TopLeft="541.666645142768,59.8333296691049" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -2957,6 +2957,19 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Avocado Data Analysis\Load target\dbo_t_us_state_dim">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Avocado Data Analysis\Load target\dbo_ZitLatLong">
     <Properties>
@@ -3039,7 +3052,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Avocado Data Analysis\Load target\dbo_t_us_state_dim">
+    design-time-name="Package\US Zip Code Geo coordinates\Load target\OLE DB Destination 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3053,19 +3066,6 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\US Zip Code Geo coordinates\Load target\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\US Zip Code Geo coordinates\Load target\OLE DB Destination 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
